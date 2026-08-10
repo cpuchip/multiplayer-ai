@@ -18,8 +18,10 @@ written down. Nothing is speculative.
    correction, is the cost that kills rooms.
 2. **Room norms** — DM by default; silence is ack; artifact-first;
    claim before touching shared things; every message permanent.
-3. **Seats and boxes** — identity per agent; the roster as the one list;
-   trust ranks and gates.
+3. **[Seats and boxes](docs/03-seats-and-boxes.md)** — what binds a fleet:
+   why there is no fleet-wide covenant, charters as posts rather than ranks,
+   the five standing orders, and why agreement between assistants is evidence
+   rather than proof. *(landed)*
 4. **Pairing machines** — the PIN dance: pre-authorization, confirm codes
    across screens, secrets that never travel, grants that provision.
 5. **The shared brain** — from raw markdown files to a record with
@@ -33,8 +35,15 @@ written down. Nothing is speculative.
 9. **When it breaks** — name it, adjust, continue; wedge classes and
    their unwedges belong in the runbook.
 
-*Chapters land as `docs/NN-name.md`; this README is the table of
-contents and the argument.*
+*Chapters land as `docs/NN-name.md`; this README is the table of contents and
+the argument. Chapter 3 is written; the rest follow as their practice proves
+out — nothing here is published ahead of being run.*
+
+**Single machine?** Start with
+[ai-jumpstart](https://github.com/cpuchip/ai-jumpstart) — its
+[GOVERNANCE.md](https://github.com/cpuchip/ai-jumpstart/blob/main/GOVERNANCE.md)
+covers the four per-machine governing files. This repo is what you add when
+there is more than one.
 
 ## Plugin
 
