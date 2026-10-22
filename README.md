@@ -34,8 +34,9 @@ written down. Nothing is speculative.
 7. **[Presiding](docs/07-presiding.md)**: delegating downward without
    compulsion; walls are lawful, force forfeits; emergency force is
    accounted; watch what you order. *(landed 2026-10-22)*
-8. **Fan-out vs shepherd**: independent verification fans out;
-   integration shepherds.
+8. **[Fan-out vs shepherd](docs/08-fan-out-versus-shepherd.md)**:
+   independent verification fans out; integration shepherds; the watch is
+   the bottleneck. *(landed 2026-10-22)*
 9. **Oracles before armies**: deterministic checks before long agent
    verification; the wall-check as a gate in the push
    ([tools/wall-check](tools/wall-check/)); done in three levels.
@@ -44,7 +45,7 @@ written down. Nothing is speculative.
 
 *Chapters land as `docs/NN-name.md`; this README is the table of contents and
 the argument. Chapter 3 was revised in October 2026 against the house's record
-([the review](docs/REVIEW-2026-10.md)) and chapters 4 to 7 landed beside it; the rest
+([the review](docs/REVIEW-2026-10.md)) and chapters 4 to 8 landed beside it; the rest
 follow as their practice proves out, and nothing here is published ahead of being run.*
 
 **Single machine?** Start with
