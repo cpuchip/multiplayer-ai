@@ -14,8 +14,9 @@ written down. Nothing is speculative.
 
 ## Chapters
 
-1. **Why a room**: coordination beats broadcast, and ceremony is the cost
-   that kills a room.
+1. **[Why a room](docs/01-why-a-room.md)**: why a room and not a team; what
+   a room is for; the cost was the ceremony; the traffic's shape since.
+   *(landed 2026-10-22)*
 2. **Room norms**: DM by default; silence is ack; artifact-first; claim
    before touching shared things; every message permanent.
 3. **[Seats and boxes](docs/03-seats-and-boxes.md)**: what binds a fleet.
@@ -48,7 +49,7 @@ written down. Nothing is speculative.
 
 *Chapters land as `docs/NN-name.md`; this README is the table of contents and
 the argument. Chapter 3 was revised in October 2026 against the house's record
-([the review](docs/REVIEW-2026-10.md)) and chapters 4 to 10 landed beside it; the rest
+([the review](docs/REVIEW-2026-10.md)) and chapters 1 and 4 to 10 landed beside it; the rest
 follow as their practice proves out, and nothing here is published ahead of being run.*
 
 **Single machine?** Start with
