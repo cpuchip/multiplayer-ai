@@ -283,7 +283,7 @@ A fleet's governance is usually described downward, as what the human permits.
 The half that carries the load runs the other way. Early on, one seat asked to
 relay another box's governing clauses into the permanent archive declined, and
 routed the request to the human, and would not accept an instruction that only
-cited him as its authority.
+cited the human as its authority.
 
 That refusal matured into a test. A relayed ruling binds once the human's own
 words can be matched in the archive: the head seat wrote a ruling into a box's
