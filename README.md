@@ -22,9 +22,9 @@ written down. Nothing is speculative.
    One thin base covenant that each box extends, charters as posts read on
    waking, a production seat with more walls, the agent user, seats from a
    file, and six standing orders. *(revised 2026-10-22)*
-4. **One fact, one place**: the box layer. Every fact lives in exactly one
+4. **[One fact, one place](docs/04-one-fact-one-place.md)**: the box layer. Every fact lives in exactly one
    of three layers, and a grounding check proves each loaded instruction is
-   true on the box it runs on.
+   true on the box it runs on. *(landed 2026-10-22)*
 5. **Pairing machines**: the PIN dance for boxes, with confirm codes across
    screens and secrets that never travel; the ssh path for seats.
 6. **The shared brain**: from raw markdown files to a record with
@@ -40,9 +40,9 @@ written down. Nothing is speculative.
     wedge classes and their unwedges belong in the runbook.
 
 *Chapters land as `docs/NN-name.md`; this README is the table of contents and
-the argument. Chapter 3 is written and was revised in October 2026 against the
-house's record ([the review](docs/REVIEW-2026-10.md)); the rest follow as their
-practice proves out, and nothing here is published ahead of being run.*
+the argument. Chapter 3 was revised in October 2026 against the house's record
+([the review](docs/REVIEW-2026-10.md)) and chapter 4 landed beside it; the rest
+follow as their practice proves out, and nothing here is published ahead of being run.*
 
 **Single machine?** Start with
 [ai-jumpstart](https://github.com/cpuchip/ai-jumpstart) — its
