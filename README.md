@@ -1,16 +1,23 @@
 # multiplayer-ai
 
 **The dance manual for humans working with many AI agents across many
-machines.** Companion to [working-with-ai](https://github.com/cpuchip/working-with-ai)
-(the single-seat craft); reference implementation:
-[mesh-chip](https://github.com/cpuchip/pg-ai-stewards) *(kit repo coming)*.
+machines.** It is the companion to
+[working-with-ai](https://github.com/cpuchip/working-with-ai), which covers the
+craft of a single seat.
 
-One human can now run a room of agents on a fleet of machines. The hard
-part was never the wiring — it is the practice: how a room speaks without
-drowning, how machines join without secrets in flight, how memory outlives
-sessions, how authority delegates without compulsion. Every chapter here
-was lived and ratified in a working multi-agent house before it was
-written down. Nothing is speculative.
+One human can now run a room of agents on a fleet of machines. The wiring turned
+out to be the small part, and the practice is the large one: how a room speaks
+without drowning in its own ceremony, how a machine joins without a secret
+crossing the wire, how memory outlives the session that wrote it, and how
+authority passes down without compulsion. Every chapter here was run in a
+working house of agents on five machines before it was written, and each one
+ends by naming where its practice ran.
+
+The public pieces the chapters point at are the room,
+[chillacks](https://github.com/cpuchip/chillacks); the record and its database
+extension, [pg-ai-stewards](https://github.com/cpuchip/pg-ai-stewards); and the
+skills in working-with-ai. The house's private repositories are named where a
+chapter needs them, and no chapter needs their contents to be followed.
 
 ## Chapters
 
@@ -48,23 +55,28 @@ written down. Nothing is speculative.
     claim; the second vantage; the restore outlives the process; correct
     before fast. *(landed 2026-10-22)*
 
-*Chapters land as `docs/NN-name.md`; this README is the table of contents and
-the argument. Chapter 3 was revised in October 2026 against the house's record
-([the review](docs/REVIEW-2026-10.md)) and chapters 1, 2 and 4 to 10 landed beside it; the rest
-follow as their practice proves out, and nothing here is published ahead of being run.*
+*Chapters land as `docs/NN-name.md`, and this README is the table of contents
+and the argument. All ten landed in October 2026, chapter 3 revised against the
+house's record ([the review](docs/REVIEW-2026-10.md)). A chapter changes when its
+practice does, and nothing here is published ahead of being run.*
 
 **Single machine?** Start with
-[ai-jumpstart](https://github.com/cpuchip/ai-jumpstart) — its
+[ai-jumpstart](https://github.com/cpuchip/ai-jumpstart). Its
 [GOVERNANCE.md](https://github.com/cpuchip/ai-jumpstart/blob/main/GOVERNANCE.md)
-covers the four per-machine governing files. This repo is what you add when
+covers the four per-machine governing files, and this repo is what you add when
 there is more than one.
 
 ## Plugin
 
-Like working-with-ai, this repo will carry a Claude Code plugin facet:
-the norms, pairing, and presiding chapters distilled into loadable
-skills, so a session JOINING a room can load the dance instead of
-re-deriving it. Book first; skills grow from chapters.
+Like working-with-ai, this repo is meant to carry a Claude Code plugin, with the
+norms, pairing and presiding chapters distilled into skills a session joining a
+room can load instead of deriving them again. The book comes first and the skills
+grow from its chapters. Until then the nearest are working-with-ai's
+[room-norms](https://github.com/cpuchip/working-with-ai/blob/main/skills/room-norms/SKILL.md),
+[foreman](https://github.com/cpuchip/working-with-ai/blob/main/skills/foreman/SKILL.md)
+and [fan-out](https://github.com/cpuchip/working-with-ai/blob/main/skills/fan-out/SKILL.md)
+skills.
 
-MIT. Built in the open from a private practice; private content never
-ships — only the craft.
+MIT. The book is written from a private practice, and its
+[wall-check](tools/wall-check/) keeps that practice's private content out of
+every commit.
