@@ -199,8 +199,10 @@ A fact that cannot say how it was measured is a fact waiting to go stale.
 
 [ai-jumpstart's WORKSPACE.md](https://github.com/cpuchip/ai-jumpstart/blob/main/WORKSPACE.md)
 gives the layout this chapter grew from: one root, walls by location instead of
-policy, and where the memory lives. This chapter is the story of what that layout
-needed once it ran on more than one machine.
+policy, and where the memory lives. Its section on
+[the second machine](https://github.com/cpuchip/ai-jumpstart/blob/main/WORKSPACE.md#the-second-machine-three-layers-each-fact-in-exactly-one-place)
+states the three layers in a page. This chapter is the story of how the house
+found each contradiction, with the instrument that found it.
 
 *Practice: workspace 3.0 on lepton (designed 2026-09-27, box layer landed
 2026-10-01), on the house's box the same day, and on threadchip 2026-10-19; nocix
