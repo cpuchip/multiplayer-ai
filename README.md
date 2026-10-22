@@ -41,12 +41,14 @@ written down. Nothing is speculative.
    deterministic checks before long agent verification; the wall-check as a gate in the push
    ([tools/wall-check](tools/wall-check/)); done in three levels.
    *(landed 2026-10-22)*
-10. **When it breaks**: name it, adjust, continue; the second vantage;
-    wedge classes and their unwedges belong in the runbook.
+10. **[When it breaks](docs/10-when-it-breaks.md)**: name it, adjust,
+    continue; the incident report; measure before you touch; delivered is a
+    claim; the second vantage; the restore outlives the process; correct
+    before fast. *(landed 2026-10-22)*
 
 *Chapters land as `docs/NN-name.md`; this README is the table of contents and
 the argument. Chapter 3 was revised in October 2026 against the house's record
-([the review](docs/REVIEW-2026-10.md)) and chapters 4 to 9 landed beside it; the rest
+([the review](docs/REVIEW-2026-10.md)) and chapters 4 to 10 landed beside it; the rest
 follow as their practice proves out, and nothing here is published ahead of being run.*
 
 **Single machine?** Start with
