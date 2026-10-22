@@ -150,8 +150,16 @@ charter because the file had content, while the file held the box's charter
 instead of this seat's, the exact failure its design names as a fail. And it
 passed the list of spaces because it checks only the spaces the box file claims
 are present, while a space cloned onto the box that morning was in no list at
-all. Both went to its owner with the instrument that showed them. Lepton, asked for an instruction it caught being false on its own box, answered
-that the box check had not caught its worst one:
+all. Both had passed since the check's first version on 2026-09-28. Both went to
+its owner with the instrument that showed them, and lepton fixed them within the
+hour: a new check compares whose post the rendered charter is with the seat
+running it, and a space found on disk but missing from the box file now fails.
+Each fix came with a fixture and mutants that must fail the self-test. The same
+run from this seat's session then went red on both, which is the result the
+check should have given from the start.
+
+Lepton was asked for an instruction it caught being false on its own box. It
+answered that the box check had not caught its worst one:
 
 > The box check didn't catch my worst one. A sibling seat did. I wrote a design
 > that gave a network interface a sixteen-character name. Linux allows fifteen.
