@@ -1,0 +1,31 @@
+# Public pattern classes for wall-check.sh: extended regular expressions, one per line,
+# matched case-insensitively. Blank lines and lines starting with # are ignored.
+# Your own names (family, employer, clients, your hostnames and domains) do NOT go here;
+# they go in the local file the script names, which never enters a repository.
+
+# Private network addresses (RFC 1918) and the shared range mesh VPNs use (RFC 6598)
+(^|[^0-9.])10\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}([^0-9]|$)
+(^|[^0-9.])192\.168\.[0-9]{1,3}\.[0-9]{1,3}([^0-9]|$)
+(^|[^0-9.])172\.(1[6-9]|2[0-9]|3[01])\.[0-9]{1,3}\.[0-9]{1,3}([^0-9]|$)
+(^|[^0-9.])100\.(6[4-9]|[7-9][0-9]|1[01][0-9]|12[0-7])\.[0-9]{1,3}\.[0-9]{1,3}([^0-9]|$)
+
+# Local paths that carry a user name
+/home/[a-z_][a-z0-9_.-]*/
+/Users/[A-Za-z][A-Za-z0-9_.-]*/
+[A-Za-z]:\\Users\\
+
+# Links into an agent session, and the trailer that carries one
+claude\.ai/code/session_
+Claude-Session:
+
+# Key material and tokens
+-----BEGIN [A-Z ]*PRIVATE KEY-----
+ghp_[A-Za-z0-9]{20,}
+github_pat_[A-Za-z0-9_]{20,}
+sk-ant-[A-Za-z0-9_-]{4,}
+AKIA[0-9A-Z]{16}
+xox[abprs]-[A-Za-z0-9-]{4,}
+
+# Hardware identifiers that name one machine
+GPU-[0-9a-f]{8}-[0-9a-f]{4}
+(^|[^0-9a-f:])([0-9a-f]{2}:){5}[0-9a-f]{2}([^0-9a-f:]|$)
