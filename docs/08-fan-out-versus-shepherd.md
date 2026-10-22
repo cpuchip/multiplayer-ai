@@ -106,9 +106,8 @@ tool's output, and look at the memory a few minutes in instead of at the end.
 
 ## When the fan-out should be a script
 
-The 469-file walk and the 62-file fan-out had one more thing in common: a
-deterministic check written afterwards caught eight contaminations that both of
-them had missed, in seconds. A verification fan-out is often an oracle nobody
+The 469-file walk and the 62-file fan-out had one more thing in common: a deterministic check written afterwards caught, on its first run and in
+seconds, seven contaminations that both of them had missed. A verification fan-out is often an oracle nobody
 has written yet. The next chapter is about writing it first.
 
 *Practice: the data race and its correction, 2026-06-04; the 62-file audit,
