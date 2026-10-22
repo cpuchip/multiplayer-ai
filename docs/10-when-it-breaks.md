@@ -120,14 +120,20 @@ ranked the steps for the human's hands by what each cost to test, and put first
 the cheapest one, which the house's notes already recorded as this board's
 recovery path: clearing the firmware's settings.
 
-The next day the human did that with the board's battery out. The controller's
-log shows the battery rail fall nearly to zero and come back a minute later, and
-two and a half minutes after that the CPU Missing state cleared. The operating
-system was up seconds later, on the same kernel and the same firmware, with all
-its memory present. The reset left one thing behind. The firmware's defaults
-turned off a processor power-management feature the kernel expects, so the
-kernel now logs a failed check every two seconds where earlier boots logged
-none, and the fix for that is a setting in the firmware.
+Nobody had to clear them. The next day the board was without mains power for
+about a minute, and the controller's log shows the battery rail that keeps those
+settings falling nearly to zero in that minute, so the battery was dead. Two and
+a half minutes after power came back the CPU Missing state cleared, and the
+operating system was up seconds later, on the same kernel and the same firmware,
+with all its memory present. The human's reading, which the log supports, is that
+the dead battery let the power outage itself wipe the settings, and the first
+boot on lost settings was the one that sat at CPU Missing; the controller's
+clock had already fallen back to the year 2000 after earlier power losses. The
+lost settings left one thing behind. The firmware's defaults turned off a
+processor power-management feature the kernel expects, so the kernel logs a
+failed check every two seconds where earlier boots logged none. The box went down
+again for the human to set the firmware back by hand, and most likely for a new
+battery.
 
 ## The restore must outlive the process
 
