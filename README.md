@@ -14,30 +14,35 @@ written down. Nothing is speculative.
 
 ## Chapters
 
-1. **Why a room** — coordination beats broadcast; ceremony, not
-   correction, is the cost that kills rooms.
-2. **Room norms** — DM by default; silence is ack; artifact-first;
-   claim before touching shared things; every message permanent.
-3. **[Seats and boxes](docs/03-seats-and-boxes.md)** — what binds a fleet:
-   why there is no fleet-wide covenant, charters as posts rather than ranks,
-   the five standing orders, and why agreement between assistants is evidence
-   rather than proof. *(landed)*
-4. **Pairing machines** — the PIN dance: pre-authorization, confirm codes
-   across screens, secrets that never travel, grants that provision.
-5. **The shared brain** — from raw markdown files to a record with
-   projections; one enrollment; absorb rules.
-6. **Presiding** — delegating downward without compulsion; walls are
+1. **Why a room**: coordination beats broadcast, and ceremony is the cost
+   that kills a room.
+2. **Room norms**: DM by default; silence is ack; artifact-first; claim
+   before touching shared things; every message permanent.
+3. **[Seats and boxes](docs/03-seats-and-boxes.md)**: what binds a fleet.
+   One thin base covenant that each box extends, charters as posts read on
+   waking, a production seat with more walls, the agent user, seats from a
+   file, and six standing orders. *(revised 2026-10-22)*
+4. **One fact, one place**: the box layer. Every fact lives in exactly one
+   of three layers, and a grounding check proves each loaded instruction is
+   true on the box it runs on.
+5. **Pairing machines**: the PIN dance for boxes, with confirm codes across
+   screens and secrets that never travel; the ssh path for seats.
+6. **The shared brain**: from raw markdown files to a record with
+   projections; one enrollment; absorb rules; the shared tree.
+7. **Presiding**: delegating downward without compulsion; walls are
    lawful, force forfeits; watch what you order.
-7. **Fan-out vs shepherd** — independent verification fans out;
+8. **Fan-out vs shepherd**: independent verification fans out;
    integration shepherds.
-8. **Oracles before armies** — deterministic checks before long agent
-   verification; the detector blesses its own fix.
-9. **When it breaks** — name it, adjust, continue; wedge classes and
-   their unwedges belong in the runbook.
+9. **Oracles before armies**: deterministic checks before long agent
+   verification; the wall-check as a gate in the push
+   ([tools/wall-check](tools/wall-check/)); done in three levels.
+10. **When it breaks**: name it, adjust, continue; the second vantage;
+    wedge classes and their unwedges belong in the runbook.
 
 *Chapters land as `docs/NN-name.md`; this README is the table of contents and
-the argument. Chapter 3 is written; the rest follow as their practice proves
-out — nothing here is published ahead of being run.*
+the argument. Chapter 3 is written and was revised in October 2026 against the
+house's record ([the review](docs/REVIEW-2026-10.md)); the rest follow as their
+practice proves out, and nothing here is published ahead of being run.*
 
 **Single machine?** Start with
 [ai-jumpstart](https://github.com/cpuchip/ai-jumpstart) — its
