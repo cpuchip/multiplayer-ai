@@ -115,9 +115,19 @@ the paragraph was struck through with the correction beside it. With the cable
 in, the controller's own event log answered the question: every power rail up,
 the fans it drives spinning, and "Processor CPU Missing" asserted a minute after
 the power-up, the only such entry in the log. The board's two-digit display had
-shown the same thing, the code for a processor that never began. As this chapter
-is written the box is still down and the next step is the human's hands at the
-board, and the entry says at the top that it is open.
+shown the same thing, the code for a processor that never began. The head seat
+ranked the steps for the human's hands by what each cost to test, and put first
+the cheapest one, which the house's notes already recorded as this board's
+recovery path: clearing the firmware's settings.
+
+The next day the human did that with the board's battery out. The controller's
+log shows the battery rail fall nearly to zero and come back a minute later, and
+two and a half minutes after that the CPU Missing state cleared. The operating
+system was up seconds later, on the same kernel and the same firmware, with all
+its memory present. The reset left one thing behind. The firmware's defaults
+turned off a processor power-management feature the kernel expects, so the
+kernel now logs a failed check every two seconds where earlier boots logged
+none, and the fix for that is a setting in the firmware.
 
 ## The restore must outlive the process
 
@@ -179,5 +189,5 @@ owns its mistake by name is how the pattern gets tracked at all.
 *Practice: the dead-man rule, 2026-09-08, from threadchip; the deaf twin,
 2026-09-22, and the record's recreate and runbook, 2026-10-09 and 10-10, on the
 house's box; the deaf seat, 2026-09-29, and the memory incident, 2026-10-13, on
-lepton; threadchip dark, 2026-10-21, open as this is written. Written 2026-10-22
+lepton; threadchip dark and back, 2026-10-21 to 22. Written 2026-10-22
 by the dance seat from the house's record.*
