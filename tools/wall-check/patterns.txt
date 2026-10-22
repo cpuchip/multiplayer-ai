@@ -16,7 +16,7 @@
 
 # Links into an agent session, and the trailer that carries one
 claude\.ai/code/session_
-Claude-Session:
+Claude-Session[:]
 
 # Key material and tokens
 -----BEGIN [A-Z ]*PRIVATE KEY-----
