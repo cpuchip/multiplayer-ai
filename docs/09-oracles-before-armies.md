@@ -25,8 +25,8 @@ dictionary. The failure it hunts is a quotation taken from a later edition and
 labelled as the earlier one, and since the two editions share many phrases, it
 compares each quote against both and flags the ones that match the later edition
 clearly better. It was tuned for precision over recall, so the person
-adjudicating would keep trusting its flags. On its first run it caught seven real
-contaminations that the serial walk and the six-agent fan-out of chapter 8 had
+adjudicating would keep trusting its flags. On its first run it caught seven real contaminations (one same-day record says
+eight, and the raw run was not kept) that the serial walk and the six-agent fan-out of chapter 8 had
 both missed. One was a case an agent in that fan-out had reported fixing, after
 fixing one of its two occurrences. The tool still runs by hand, because the human
 ruled that it becomes a gate only once it keeps earning its weight.
@@ -34,8 +34,8 @@ ruled that it becomes a gate only once it keeps earning its weight.
 ## Rules for a detector
 
 A detector is itself an instrument, and it fails in its own ways. The house
-collected the rules for building one from two gates written in one evening and
-the nights that followed.
+collected eight rules for building one, most of them from two gates written in
+one evening and the nights that followed.
 
 1. **It must pass the fix it recommends.** One gate nearly flagged the
    correctly rounded math function its own rule told people to use; another
@@ -64,10 +64,22 @@ the nights that followed.
    neither proves it ever does. A feature checked at the producer and at the
    consumer can pass both checks and still not exist, so the check that matters
    drives the real path end to end and looks where a user would.
-6. **Read the gate.** A seat chained its suite to a commit, the suite went red
-   on a rename left half done, and the seat read the commit's line and pushed.
-   A green nobody read is worse than no gate, and a red nobody read is worse
-   still.
+6. **Chain the gate and read it.** A seat chained its suite to a commit, the
+   suite went red on a rename left half done, and the seat read a line that was
+   not the gate's and pushed. A green nobody read is worse than no gate, and a
+   red nobody read is worse still. Chaining the gate to the action is what stops
+   the action on red, and reading the gate's own output and the chain's exit
+   status is what tells the seat it is green. A gate that prints nothing when
+   it passes leaves only the action's line on screen, so it should say that it
+   passed.
+7. **The caveat travels with the number.** A rehearsal tool's header said its
+   contacts moved in straight lines, and its numbers crossed into a design
+   document, then a roadmap, then a decision, with the limitation left behind at
+   the first hop. Every artifact that carries a figure restates its
+   instrument's known blind spot next to it.
+8. **Red first.** Run the guard against the exact failure it exists to prevent
+   and require it to fail before trusting it to pass. A guard nobody has watched
+   go red has only been watched agreeing with its author.
 
 The third rule has a sequel that is the best lesson in the set. Three seats
 published that a verification tool exited 0 on a real failure, and a fourth
@@ -86,9 +98,7 @@ question was what else has never been run on the real thing.
 
 A check that runs beside a push protects nothing. The house writes its gates
 into the push itself, `check && git push`, so the push cannot happen unless the
-check exits clean. That sits in tension with rule 6, and the house keeps both: the
-chain enforces the exit code, and only a reader catches a gate whose output and
-exit code disagree, so the seat reads the gate's output as well. The order matters more than it looks: on one box a visibility
+check exits clean, and by rule 6 the seat reads the gate's own output as well. The order matters more than it looks: on one box a visibility
 query chained into the push command failed after the push had already run. The
 query now goes in its own command before the push, and the gate goes in front of
 the push in the same command.
@@ -159,7 +169,7 @@ good its oracle is.
 This book runs under the same rule. Every chapter passes the wall-check, a voice
 census and a match of every quotation against its source before it is committed,
 and the census refused one of this book's commits today for a paragraph of one
-sentence. The census is held to its own rules as well: its self-test plants one of each
+sentence. The census is held to rule 8 as well: its self-test plants one of each
 shape it hunts, and the first edition of chapter 3, which predates the voice
 rules, fails it 19 times as the positive control.
 
