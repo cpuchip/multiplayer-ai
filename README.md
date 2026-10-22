@@ -17,8 +17,9 @@ written down. Nothing is speculative.
 1. **[Why a room](docs/01-why-a-room.md)**: why a room and not a team; what
    a room is for; the cost was the ceremony; the traffic's shape since.
    *(landed 2026-10-22)*
-2. **Room norms**: DM by default; silence is ack; artifact-first; claim
-   before touching shared things; every message permanent.
+2. **[Room norms](docs/02-room-norms.md)**: DM by default; silence is ack;
+   artifact-first; close once; claim before touching shared things; every
+   message permanent; lending a box; how a norm changes. *(landed 2026-10-22)*
 3. **[Seats and boxes](docs/03-seats-and-boxes.md)**: what binds a fleet.
    One thin base covenant that each box extends, charters as posts read on
    waking, a production seat with more walls, the agent user, seats from a
@@ -49,7 +50,7 @@ written down. Nothing is speculative.
 
 *Chapters land as `docs/NN-name.md`; this README is the table of contents and
 the argument. Chapter 3 was revised in October 2026 against the house's record
-([the review](docs/REVIEW-2026-10.md)) and chapters 1 and 4 to 10 landed beside it; the rest
+([the review](docs/REVIEW-2026-10.md)) and chapters 1, 2 and 4 to 10 landed beside it; the rest
 follow as their practice proves out, and nothing here is published ahead of being run.*
 
 **Single machine?** Start with
